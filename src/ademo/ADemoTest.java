@@ -32,7 +32,7 @@ public class ADemoTest {
 
 		
 
-		//Adding new line 1/31/2025 - Push Number# 2
+		//Adding new line 1/31/2025 - Push Number# 1
 		System.out.println("*****From Farah: Push Number 1******");
 		int point = 80;
 		if(point >= 80) {
@@ -44,8 +44,8 @@ public class ADemoTest {
 		}
 			System.out.println("******End of Code by Farah*******");
 			
-			// Adding new lines 02/01/2025 - Push Number# 3
-			System.out.println("***** From Sally: Push Number 2 *****");
+			// Adding new lines 02/01/2025 - Push Number# 1
+			System.out.println("***** From Sally: Push Number 1 *****");
 
 			String str1 = phoneCalls("Voice call. Accepted on another device");
 			String str2 = phoneCalls("Video call. Accepted on another device");
