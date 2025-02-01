@@ -27,6 +27,22 @@ public class ADemoTest {
 			System.out.println("Count is Less than 20");
 		}
 		System.out.println("****** End of Code by Sam ******");
+		
+		
+		//Adding new line 1/31/2025 - Push Number# 1
+		System.out.println("*****From Farah: Push Number 1******");
+		int point = 80;
+		if(point >= 80) {
+			System.out.println("WOW");
+		}else if(point >= 70) {
+			System.out.println("good");
+		}else if(point < 70) {
+			System.out.println("ewwww");
+		}
+			System.out.println("******End of Code by Farah*******");
+			
+			
+		
 	}
 	
 }
