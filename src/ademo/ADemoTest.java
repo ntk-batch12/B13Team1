@@ -2,6 +2,17 @@ package ademo;
 
 public class ADemoTest {
 	
+	// Code Added By Sam - Push Number 2 -
+	int departId;
+	String departName;
+	
+	// Parameterized Constructor by SAM - Push Number 2
+	public ADemoTest(int id, String name) {
+		departId = id;
+		departName = name;
+		
+	}
+	
 	public static void main(String[] args) {
 		System.out.println("Team 1");
 		
@@ -30,6 +41,16 @@ public class ADemoTest {
 		
 		
 
+		// Adding new lines 1/1/2025 - Push Number 2 - Sam -
+		// Adding new Objects
+		ADemoTest dept1 = new ADemoTest(111, "Dev");
+		ADemoTest dept2 = new ADemoTest(222, "QA");
+		
+		// Print Statement
+		System.out.println("******* Push Number# 2 By Sam *******");
+		System.out.println(dept1.departName);
+		System.out.println(dept2.departName);
+		System.out.println("****** End OF Code: Push Number# 2 by Sam ******");
 		
 
 		//Adding new line 1/31/2025 - Push Number# 1
