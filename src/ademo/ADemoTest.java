@@ -110,4 +110,21 @@ public String withoutEnd(String str) {
 	}
 //****************** End of code by Roberto***********************
 	
-}
+// second push Roberto
+	int a = 90;
+	int b = 80;
+	int c = 70;
+	int d = 60;{
+
+	if(a > b) {
+		System.out.println("Grade: A");
+	} else if(b > c && b < a) {
+		System.out.println("Grade: B");
+	} else if (c > d && c < b) {
+		System.out.println("Grade: C");
+	} else {
+		System.out.println("Grade: D");
+	}
+	
+	//****************** End of code by Roberto***********************
+}}
