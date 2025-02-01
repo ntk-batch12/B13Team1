@@ -74,6 +74,19 @@ public static String phoneCalls(String str) {
 }
  // ******************* End of Code by Sally *********************
 
+// First push Roberto
 
+public String withoutEnd(String str) {
+	  String result = "";
+	  
+	  int length = str.length()-2;
+	  
+	  if(length >= 2){
+	    result = str.substring(1,str.length()-1);
+	  }
+	  
+	  return result;
+	}
+//****************** End of code by Roberto***********************
 	
 }
