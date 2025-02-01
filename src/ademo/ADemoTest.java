@@ -29,19 +29,36 @@ public class ADemoTest {
 		System.out.println("****** End of Code by Sam ******");
 		
 		
-		// Adding new lines 02/01/2025 - Push Number# 2
-		System.out.println("***** From Sally: Push Number 2 *****");
 
-		String str1 = phoneCalls("Voice call. Accepted on another device");
-		String str2 = phoneCalls("Video call. Accepted on another device");
-		String str3 = phoneCalls("Voice call. Rejected on another device");
-		String str4 = phoneCalls("Video call. Rejected on another device");
 		
-		System.out.println(str1);
-		System.out.println(str2);
-		System.out.println(str3);
-		System.out.println(str4);
-		System.out.println("****** End of Code by Sally ******");
+
+		//Adding new line 1/31/2025 - Push Number# 2
+		System.out.println("*****From Farah: Push Number 1******");
+		int point = 80;
+		if(point >= 80) {
+			System.out.println("WOW");
+		}else if(point >= 70) {
+			System.out.println("good");
+		}else if(point < 70) {
+			System.out.println("ewwww");
+		}
+			System.out.println("******End of Code by Farah*******");
+			
+			// Adding new lines 02/01/2025 - Push Number# 3
+			System.out.println("***** From Sally: Push Number 2 *****");
+
+			String str1 = phoneCalls("Voice call. Accepted on another device");
+			String str2 = phoneCalls("Video call. Accepted on another device");
+			String str3 = phoneCalls("Voice call. Rejected on another device");
+			String str4 = phoneCalls("Video call. Rejected on another device");
+			
+			System.out.println(str1);
+			System.out.println(str2);
+			System.out.println(str3);
+			System.out.println(str4);
+			System.out.println("****** End of Code by Sally ******");
+		
+
 	}
 	
 public static String phoneCalls(String str) {
