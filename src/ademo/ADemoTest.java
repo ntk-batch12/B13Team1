@@ -1,22 +1,18 @@
 package ademo;
 
 public class ADemoTest {
-<<<<<<< HEAD
 
-=======
-	
 	// Code Added By Sam - Push Number 2 -
 	int departId;
 	String departName;
-	
+
 	// Parameterized Constructor by SAM - Push Number 2
 	public ADemoTest(int id, String name) {
 		departId = id;
 		departName = name;
-		
+
 	}
-	
->>>>>>> branch 'master' of https://github.com/ntk-batch12/B13Team1.git
+
 	public static void main(String[] args) {
 		System.out.println("Team 1");
 
@@ -42,23 +38,21 @@ public class ADemoTest {
 		}
 		System.out.println("****** End of Code by Sam ******");
 
-<<<<<<< HEAD
 		// Adding new line 1/31/2025 - Push Number# 1
-=======
+
 		// Adding new lines 1/1/2025 - Push Number 2 - Sam -
 		// Adding new Objects
 		ADemoTest dept1 = new ADemoTest(111, "Dev");
 		ADemoTest dept2 = new ADemoTest(222, "QA");
-		
+
 		// Print Statement
 		System.out.println("******* Push Number# 2 By Sam *******");
 		System.out.println(dept1.departName);
 		System.out.println(dept2.departName);
 		System.out.println("****** End OF Code: Push Number# 2 by Sam ******");
-		
 
-		//Adding new line 1/31/2025 - Push Number# 1
->>>>>>> branch 'master' of https://github.com/ntk-batch12/B13Team1.git
+		// Adding new line 1/31/2025 - Push Number# 1
+
 		System.out.println("*****From Farah: Push Number 1******");
 		int point = 80;
 		if (point >= 80) {
@@ -99,41 +93,40 @@ public class ADemoTest {
 	}
 	// ******************* End of Code by Sally *********************
 
-<<<<<<< HEAD
-}
 ///// sally is Testing
-=======
+
 // First push Roberto
 
-public String withoutEnd(String str) {
-	  String result = "";
-	  
-	  int length = str.length()-2;
-	  
-	  if(length >= 2){
-	    result = str.substring(1,str.length()-1);
-	  }
-	  
-	  return result;
+	public String withoutEnd(String str) {
+		String result = "";
+
+		int length = str.length() - 2;
+
+		if (length >= 2) {
+			result = str.substring(1, str.length() - 1);
+		}
+
+		return result;
 	}
 //****************** End of code by Roberto***********************
-	
+
 // second push Roberto
 	int a = 90;
 	int b = 80;
 	int c = 70;
-	int d = 60;{
+	int d = 60;
+	{
 
-	if(a > b) {
-		System.out.println("Grade: A");
-	} else if(b > c && b < a) {
-		System.out.println("Grade: B");
-	} else if (c > d && c < b) {
-		System.out.println("Grade: C");
-	} else {
-		System.out.println("Grade: D");
+		if (a > b) {
+			System.out.println("Grade: A");
+		} else if (b > c && b < a) {
+			System.out.println("Grade: B");
+		} else if (c > d && c < b) {
+			System.out.println("Grade: C");
+		} else {
+			System.out.println("Grade: D");
+		}
+
+		// ****************** End of code by Roberto***********************
 	}
-	
-	//****************** End of code by Roberto***********************
-}}
-
+}
