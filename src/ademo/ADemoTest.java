@@ -11,6 +11,11 @@ public class ADemoTest {
 		String group = "Team A";
 		String name = "Sally";
 		System.out.println("Group:" + group + " name: "+ name);
+		
+		for(int i = 0; i < 20 ; i++) {
+			System.out.println(i);
+		}
+		
 	}
 	
 }
