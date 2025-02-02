@@ -18,6 +18,9 @@ public class ADemoTest {
 		departName = name;
 
 	}
+	public static void getInfo() {
+		System.out.println("Day 3: Git Lecture:");
+	}
 	
 
 	public static void main(String[] args) {
@@ -296,7 +299,11 @@ public class ADemoTest {
 			System.out.println("END of Push Number #4 by Sam");
 			// ************** Beginning of Push Number #4 by Sam ************
 		}
-	
+
+		public void addXYZ() {
+			System.out.println(1+2);
+		}
+		
 	}
 
 
