@@ -230,5 +230,21 @@ public class ADemoTest {
 	}
 	
 	// End of code ---- by Sally
+	
+	
+	//start code by Mina 
+	public class DemoNonVoid1 {
+		
+		// 1. void method
+		public static void add(int a, int b) {
+		System.out.println(a + b);	
+		}
 
-}
+		// 2. non-void
+		public static int subtract(int a, int b) {
+			int result =0;
+			result =a -b;
+			return result;
+		}
+	}}
+//Bush #1 by Mina 
