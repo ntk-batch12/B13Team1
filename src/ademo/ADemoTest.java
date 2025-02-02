@@ -14,6 +14,20 @@ public class ADemoTest {
 	}
 
 	public static void main(String[] args) {
+		//calling Roberto's method ---- by Sally 
+		// push number #2 By Sally 02/01/2025
+	ADemoTest obj = new ADemoTest(100, "Team 1");
+	
+	String result = obj.withoutEnd("NumberOne");
+	String result1 = obj.withoutEnd("NOOOOOO");
+	String result2 = obj.withoutEnd("Trouble");
+	System.out.println("****** calling Roberto's Method By Sally ******");
+	System.out.println(result);
+	System.out.println(result1);
+	System.out.println(result2);
+	System.out.println("****** End of Code by Sally ******");
+	
+	
 		System.out.println("Team 1");
 
 		System.out.println("Hi Team 1");
