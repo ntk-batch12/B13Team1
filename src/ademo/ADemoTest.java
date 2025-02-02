@@ -1,5 +1,8 @@
 package ademo;
 
+// Import the Scanner package
+import java.util.*;
+
 public class ADemoTest {
 
 	// Code Added By Sam - Push Number 2 -
@@ -145,5 +148,39 @@ public class ADemoTest {
 		
 		
 		//sally is testing again
+		
+		
+		// ************** Beginning of Push Number #3 by Sam *************
+		System.out.println("********* Beginning of Push Number #3 By Sam *******");
+		
+		Scanner scan = new Scanner(System.in);
+		
+		// Create a Variable
+		String num;
+		
+		// Ask the user to Enter a Number:
+		System.out.println("Please Enter a Number: ");
+		
+		num = scan.nextLine();
+		
+		// IF Statement
+		if (num.matches("[01]+")) {
+			System.out.println("You Entered a Binary Redix = 2");
+			
+		} else if (num.matches("[0-7]+")) {
+			System.out.println("You Entered a Octal Redix = 8");
+			
+		} else if (num.matches("[0-9]+")) {
+			System.out.println("You Entered a Decimal Redix = 10");
+			
+		} else if (num.matches("[0-9A-F+]")) {
+			System.out.println("You Entered a Hexa Redix = 16");
+			
+		} else {
+			System.out.println("The Number You Have Entered is Not Within Range!");
+		}
+		System.out.println("********* END of Push Number #3 By Sam *******");
+		
+		// ************** END of Push Number #3 by Sam *************
 	}
 }
