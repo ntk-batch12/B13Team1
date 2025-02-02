@@ -17,20 +17,33 @@ public class ADemoTest {
 	}
 
 	public static void main(String[] args) {
-		//calling Roberto's method ---- by Sally 
+		// calling Roberto's method ---- by Sally
 		// push number #2 By Sally 02/01/2025
-	ADemoTest obj = new ADemoTest(100, "Team 1");
-	
-	String result = obj.withoutEnd("NumberOne");
-	String result1 = obj.withoutEnd("NOOOOOO");
-	String result2 = obj.withoutEnd("Trouble");
-	System.out.println("****** calling Roberto's Method By Sally ******");
-	System.out.println(result);
-	System.out.println(result1);
-	System.out.println(result2);
-	System.out.println("****** End of Code by Sally ******");
-	
-	
+		ADemoTest obj = new ADemoTest(100, "Team 1");
+
+		String result = obj.withoutEnd("NumberOne");
+		String result1 = obj.withoutEnd("NOOOOOO");
+		String result2 = obj.withoutEnd("Trouble");
+		System.out.println("****** calling Roberto's Method By Sally ******");
+		System.out.println(result);
+		System.out.println(result1);
+		System.out.println(result2);
+		System.out.println("****** End of Code by Sally ******");
+		
+		//Calling checkFirstLast() ---- By Sally
+		
+		String s1 = checkFirstLast("Sally", "Shakkakee");
+		String s2 = checkFirstLast("Farah", "AbdulAziz");
+		String s3 = checkFirstLast("Sam", "Smith");
+		String s4 = checkFirstLast("Roberto", "Jones");
+		String s5 = checkFirstLast("Mina", "Taim");
+		
+		System.out.println(s1);
+		System.out.println(s2);
+		System.out.println(s3);
+		System.out.println(s4);
+		
+
 		System.out.println("Team 1");
 
 		System.out.println("Hi Team 1");
@@ -145,63 +158,77 @@ public class ADemoTest {
 		}
 
 		// ****************** End of code by Roberto***********************
-		
-		
-		//sally is testing again
-		
-		
+
+		// sally is testing again
+
 		// ************** Beginning of Push Number #3 by Sam *************
 		System.out.println("********* Beginning of Push Number #3 By Sam *******");
-		
+
 		Scanner scan = new Scanner(System.in);
-		
+
 		// Create a Variable
 		String num;
-		
+
 		// Ask the user to Enter a Number:
 		System.out.println("Please Enter a Number: ");
-		
+
 		num = scan.nextLine();
-		
+
 		// IF Statement
 		if (num.matches("[01]+")) {
 			System.out.println("You Entered a Binary Redix = 2");
-			
+
 		} else if (num.matches("[0-7]+")) {
 			System.out.println("You Entered a Octal Redix = 8");
-			
+
 		} else if (num.matches("[0-9]+")) {
 			System.out.println("You Entered a Decimal Redix = 10");
-			
+
 		} else if (num.matches("[0-9A-F+]")) {
 			System.out.println("You Entered a Hexa Redix = 16");
-			
+
 		} else {
 			System.out.println("The Number You Have Entered is Not Within Range!");
 		}
 		System.out.println("********* END of Push Number #3 By Sam *******");
-		
+
 		// ************** END of Push Number #3 by Sam *************
 	}
-	
-	
-	//Push 3 Roberto
-	
+
+	// Push 3 Roberto
+
 	public boolean answerCell(boolean isMorning, boolean isMom, boolean isAsleep) {
-		  boolean result = true;
-		  
-		  if(isAsleep) {
-		    result = false;
-		  } 
-		  if(isMorning && !isMom){
-		    result = false;
-		  }
-		  
-		  
-		  
-		  return result;
+		boolean result = true;
+
+		if (isAsleep) {
+			result = false;
 		}
+		if (isMorning && !isMom) {
+			result = false;
+		}
+
+		return result;
+	}
 	// End of code push 3 Roberto
-	
+
 	// Sally is testing again and again and again
+
+	// push number 3 ---- By Sally
+
+	public static String checkFirstLast(String firstName, String lastName) {
+		String result = "";
+
+		if (firstName.substring(0, 1).equals(lastName.substring(0, 1))) {
+			result = " First letter from the first name matches the last letter from the last name ";
+
+		} else {
+			result = " First letter from the first name does not match the last letter from the last name ";
+
+		}
+
+		return result;
+	}
+	
+	// End of code ---- by Sally
+
 }
