@@ -43,7 +43,17 @@ public class ADemoTest {
 		System.out.println(s3);
 		System.out.println(s4);
 		
-
+		//calling concatString() ---- by Sally
+		String r1 = obj.concatString("gitHub", "briliant");
+		String r2 = obj.concatString("road", "door");
+		String r3 = obj.concatString("more", "fun");
+		String r4 = obj.concatString("call", "ling");
+		System.out.println(r1);
+		System.out.println(r2);
+		System.out.println(r3);
+		System.out.println(r4);
+		System.out.println("***********End of code--- By Sally ***********");
+		
 		System.out.println("Team 1");
 
 		System.out.println("Hi Team 1");
@@ -219,10 +229,10 @@ public class ADemoTest {
 		String result = "";
 
 		if (firstName.substring(0, 1).equals(lastName.substring(0, 1))) {
-			result = " First letter from the first name matches the last letter from the last name ";
+			result = " First letter from the first name matches the first letter from the last name ";
 
 		} else {
-			result = " First letter from the first name does not match the last letter from the last name ";
+			result = " First letter from the first name does not match the first letter from the last name ";
 
 		}
 
@@ -246,7 +256,19 @@ public class ADemoTest {
 			result =a -b;
 			return result;
 		}
-		
+		//Bush #1 by Mina 
 		// see you in class today, 4th push Roberto
-	}}
-//Bush #1 by Mina 
+	}
+	// push number 4 ---- By Sally
+	String concatString(String str1, String str2) {
+		String result = "";
+		if (str1.charAt(str1.length() - 1) == str2.charAt(0)) {
+			result = str1.concat(str2.substring(1));
+			return result;
+		} else {
+			result = str1.concat(str2);
+
+		}
+		return result;
+	}
+	}
