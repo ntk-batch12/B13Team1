@@ -3,6 +3,9 @@ package ademo;
 // Import the Scanner package
 import java.util.*;
 
+import com.noorteck.java.day22.Exercise1;
+import com.noorteck.java.day22.Exercise3;
+
 public class ADemoTest {
 
 	// Code Added By Sam - Push Number 2 -
@@ -15,6 +18,7 @@ public class ADemoTest {
 		departName = name;
 
 	}
+	
 
 	public static void main(String[] args) {
 		// calling Roberto's method ---- by Sally
@@ -43,7 +47,17 @@ public class ADemoTest {
 		System.out.println(s3);
 		System.out.println(s4);
 		
-
+		//calling concatString() ---- by Sally
+		String r1 = obj.concatString("gitHub", "briliant");
+		String r2 = obj.concatString("road", "door");
+		String r3 = obj.concatString("more", "fun");
+		String r4 = obj.concatString("call", "ling");
+		System.out.println(r1);
+		System.out.println(r2);
+		System.out.println(r3);
+		System.out.println(r4);
+		System.out.println("***********End of code--- By Sally ***********");
+		
 		System.out.println("Team 1");
 
 		System.out.println("Hi Team 1");
@@ -74,6 +88,7 @@ public class ADemoTest {
 		// Adding new Objects
 		ADemoTest dept1 = new ADemoTest(111, "Dev");
 		ADemoTest dept2 = new ADemoTest(222, "QA");
+		
 
 		// Print Statement
 		System.out.println("******* Push Number# 2 By Sam *******");
@@ -194,6 +209,8 @@ public class ADemoTest {
 
 		// ************** END of Push Number #3 by Sam *************
 	}
+	
+	
 
 	// Push 3 Roberto
 
@@ -219,10 +236,10 @@ public class ADemoTest {
 		String result = "";
 
 		if (firstName.substring(0, 1).equals(lastName.substring(0, 1))) {
-			result = " First letter from the first name matches the last letter from the last name ";
+			result = " First letter from the first name matches the first letter from the last name ";
 
 		} else {
-			result = " First letter from the first name does not match the last letter from the last name ";
+			result = " First letter from the first name does not match the first letter from the last name ";
 
 		}
 
@@ -230,6 +247,7 @@ public class ADemoTest {
 	}
 	
 	// End of code ---- by Sally
+	
 	
 	
 	//start code by Mina 
@@ -246,10 +264,41 @@ public class ADemoTest {
 			result =a -b;
 			return result;
 		}
-	}}
-//Bush #1 by Mina 
 
+		//Bush #1 by Mina 
+		// see you in class today, 4th push Roberto
+	}
+	// push number 4 ---- By Sally
+	String concatString(String str1, String str2) {
+		String result = "";
+		if (str1.charAt(str1.length() - 1) == str2.charAt(0)) {
+			result = str1.concat(str2.substring(1));
+			return result;
+		} else {
+			result = str1.concat(str2);
+
+		}
+		return result;
+	}
 	
+	// ************** Beginning of Push Number #4 by Sam ************
+	// Static Variable
+		public static int age;
+		
+		
+		// Non-Static Method
+		public void getAge() {
+			// How to call (STATIC VARIABLE) from (NON-STATIC Method Body) in the SAME CLASS.
+			// Call Directly by the STATIC VARIABLE NAME.
+			
+			age = 11;
+			System.out.println(age);
+			System.out.println("END of Push Number #4 by Sam");
+			// ************** Beginning of Push Number #4 by Sam ************
+		}
+	
+	}
+
 
 	
 
