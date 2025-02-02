@@ -183,4 +183,23 @@ public class ADemoTest {
 		
 		// ************** END of Push Number #3 by Sam *************
 	}
+	
+	
+	//Push 3 Roberto
+	
+	public boolean answerCell(boolean isMorning, boolean isMom, boolean isAsleep) {
+		  boolean result = true;
+		  
+		  if(isAsleep) {
+		    result = false;
+		  } 
+		  if(isMorning && !isMom){
+		    result = false;
+		  }
+		  
+		  
+		  
+		  return result;
+		}
+	// End of code push 3 Roberto
 }
