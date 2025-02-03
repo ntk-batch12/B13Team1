@@ -111,6 +111,16 @@ public class ADemoTest {
 			System.out.println("ewwww");
 		}
 		System.out.println("******End of Code by Farah*******");
+		
+	//2nd code by Farah 2/2/2025
+		public boolean aIsBigger(int a, int b) {
+			boolean result = true;
+			if(a > b && (a-b) >= 2) {
+				return true;
+			}else {
+			return result;
+			}
+		}
 
 		// Adding new lines 02/01/2025 - Push Number# 1
 		System.out.println("***** From Sally: Push Number 1 *****");
